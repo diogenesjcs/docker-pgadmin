@@ -22,3 +22,5 @@ services:
         - "traefik.docker.network=plataforma_network"
         - "traefik.pgadmin.frontend.rule=PathPrefixStrip: /pgadmin"
         - "traefik.port=80"
+volumes:
+    pgadmin:
